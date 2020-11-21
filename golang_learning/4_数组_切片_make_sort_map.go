@@ -105,6 +105,13 @@ func main() {
 	sort.Sort(sort.Reverse(sort.IntSlice(Arr2[:])))  // 降序 比较麻烦
 	fmt.Println(Arr2, len(Arr2), cap(Arr2)) // [8 5 4 3 2 1] 6 6
 
+	Arr3 := []int{1, 4, 3}
+	var Arr4 = make([]int, len(Arr3), cap(Arr3))
+	copy(Arr4, Arr3)  // 深拷贝
+	fmt.Println(Arr3, Arr4)  // [1 4 3] [1 4 3]
+	Arr4[1] = 44
+	fmt.Println(Arr3, Arr4)  // [1 4 3] [1 44 3]
+
 	// map
 	var maze1 = make(map[int]string)  // 使用make创建
 	maze1[1] = "abc"
