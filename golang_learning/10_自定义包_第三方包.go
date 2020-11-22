@@ -30,8 +30,8 @@ func main() {
 	// 第三方包地址： https://pkg.go.dev/
 	/*
 		安装第三方包  1. go get github.com/shopspring/decimal
-				    2. 在项目目录下 go mod download 依赖下载到Go_Path
-					3. 在项目目录下 go mod vendor 下载且将依赖复制到当前项目目录里面
+			    2. 在项目目录下 go mod download 依赖下载到Go_Path
+	    		    3. 在项目目录下 go mod vendor 下载且将依赖复制到当前项目目录里面
 	 */
 
 
