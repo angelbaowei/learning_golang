@@ -1,4 +1,4 @@
-module awesomeProject
+module awesomeProject  // 项目名称
 
 go 1.14
 
