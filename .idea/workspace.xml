@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9f7548d-5450-4220-8c7b-cc88a2ecfc8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/1_第一个goroutine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/12_goroutine_channel.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golang_learning/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

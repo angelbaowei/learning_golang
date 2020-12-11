@@ -1,6 +1,6 @@
 module awesomeProject  // 项目名称
 
-go 1.14
+go 1.15.2
 
 require (
 	github.com/gin-gonic/gin v1.6.3 // indirect
