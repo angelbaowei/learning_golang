@@ -61,13 +61,22 @@
       <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (4)">
-    <configuration name="go build awesomeProject/golang_learning" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (1)">
+    <configuration name="go build 6_not_lock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/7_time日期.go" />
-      <package value="awesomeProject/golang_learning" />
+      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/6_not_lock.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 7_lock.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/7_lock.go" />
+      <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -75,25 +84,7 @@
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/2_使用sync_WaitGroup_使用的cpu数量.go" />
-      <package value="awesomeProject/golang_learning/12_goroutine_channel" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build awesomeProject/golang_learning/12_goroutine_channel (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/3_channel.go" />
-      <package value="awesomeProject/golang_learning/12_goroutine_channel" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build awesomeProject/golang_learning/12_goroutine_channel (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/4_select多路复用.go" />
+      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/8_读写锁.go" />
       <package value="awesomeProject/golang_learning/12_goroutine_channel" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -107,13 +98,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build awesomeProject/golang_learning/12_goroutine_channel" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/6_lock.go" />
+      <package value="awesomeProject/golang_learning/12_goroutine_channel" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (4)" />
-        <item itemvalue="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (3)" />
-        <item itemvalue="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (2)" />
-        <item itemvalue="Go Build.go build awesomeProject/golang_learning" />
         <item itemvalue="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (1)" />
+        <item itemvalue="Go Build.go build 6_not_lock.go" />
+        <item itemvalue="Go Build.go build 7_lock.go" />
+        <item itemvalue="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel" />
+        <item itemvalue="Go Build.go build awesomeProject/golang_learning/12_goroutine_channel (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -134,21 +134,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1607688630727">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1607767112916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607688630727" />
-    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1607688630727">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607767112916" />
+    <state width="1877" height="473" key="GridCell.Tab.0.center" timestamp="1607767112916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607688630727" />
-    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1607688630727">
+    <state width="1877" height="473" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607767112916" />
+    <state width="1877" height="473" key="GridCell.Tab.0.left" timestamp="1607767112915">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607688630727" />
-    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1607688630727">
+    <state width="1877" height="473" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607767112915" />
+    <state width="1877" height="473" key="GridCell.Tab.0.right" timestamp="1607767112916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607688630727" />
+    <state width="1877" height="473" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607767112916" />
   </component>
 </project>
