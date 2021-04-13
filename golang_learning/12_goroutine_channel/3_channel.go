@@ -62,8 +62,8 @@ func main() {
 	for i := 1; i <= 5; i++ {
 		ch4 <- i
 	}
-	close(ch4)  // 关闭后就不会报错了 关闭chan 是为了防止 for range 死锁
 
+	close(ch4)  // 关闭后就不会报错了 关闭chan 是为了防止 for range 死锁
 	for v := range ch4 {  // 通过for range遍历管道 前 必须要关闭管道 否则会报错 fatal error: all goroutines are asleep - deadlock!
 		fmt.Println(v)
 	}

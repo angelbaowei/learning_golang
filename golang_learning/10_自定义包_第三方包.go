@@ -3,7 +3,7 @@ package main  // 入口
 // 首先要使用 go mod init 创建项目
 
 import (
-	T "awesomeProject/calc"  // 项目名称/文件夹名称  这里的T是包的别名
+	T "awesomeProject/calc"
 	"fmt"
 	//_ "awesomeProject/calc"  这是匿名包 此时这个包就不会参与编译
 
@@ -16,16 +16,12 @@ func init() {
 }
 
 func main() {
-	//res := calc.Add(10, 2)
-	//res2 := calc.Sub(10, 2)
-	//fmt.Println(res, res2)
-	//fmt.Println(calc.AAA)
-	// fmt.Println(calc.aaa) error 私有变量不能访问
 
 	res := T.Add(10, 2)
 	res2 := T.Sub(10, 2)
 	fmt.Println(res, res2)
 	fmt.Println(T.AAA)
+	//fmt.Println(T.aaa) // error 私有变量不能访问
 
 	// 第三方包地址： https://pkg.go.dev/
 	/*

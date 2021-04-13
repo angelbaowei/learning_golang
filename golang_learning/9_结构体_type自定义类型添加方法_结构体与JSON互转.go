@@ -14,8 +14,9 @@ type Node struct {
 }
 
 // 给结构体结构体方法
-func (n Node) printInfo() {  // 这里的n是Node的this对象
+func (n Node) printInfo() Node {  // 这里的n是Node的this对象
 	fmt.Println(n)
+	return n
 }
 
 func (n *Node) setInfo(x int) {  // 这里的n是指针类型 即引用类型 改变n就是改变调用对象
@@ -57,7 +58,8 @@ func main() {
 	// 结构体是值类型
 
 	// 结构体方法
-	n1.printInfo()
+	var pp = n1.printInfo()
+	fmt.Println("----", pp)
 	n1.setInfo(10)
 	n1.printInfo()
 
@@ -86,7 +88,7 @@ func main() {
 	}
 	var P2 Person2
 	P2.Name = "b"
-	P2.Age = 13
+	P2.Age = 13  // 继承了
 	fmt.Println(P2)
 
 	// JSON 与 结构体 相互转换  序列化与反序列化
@@ -97,7 +99,7 @@ func main() {
 	fmt.Println(jsonStr1)
 
 	// JSON转结构体
-	var str = `{"Name":"c","Age":14}`  // 反引号定义
+	var str = `{"Name":"c","Age":14}`  // 字符串里面有引号"，因此用反引号定义
 	var P3 Person2
 	err := json.Unmarshal([]byte(str), &P3)
 	if err != nil {

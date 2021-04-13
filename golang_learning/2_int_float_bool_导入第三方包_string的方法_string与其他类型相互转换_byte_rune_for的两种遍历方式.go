@@ -26,7 +26,7 @@ func main() {
 
 	var d int = 17
 	fmt.Println(unsafe.Sizeof(d)) // 64位机器 是 8 bytes  32位机器是 4 bytes
-	fmt.Printf("%d %b %o %x", d, d, d, d)  // %d 十进制  %b 二进制  %o 八进制  %x 十六进制
+	fmt.Printf("%d %b %o %x\n", d, d, d, d)  // %d 十进制  %b 二进制  %o 八进制  %x 十六进制
 
 	var f1 float32 = 3.4
 	fmt.Printf("%v %f\n", f1, f1)  // %f 默认保留6位小数
@@ -188,5 +188,5 @@ das`
 	fmt.Println(10 % 3, -10 % 3, 10 % -3)
 	// golang 中 ++ -- 只能单独使用 不能像C语言那样 且只有i++/i-- 没有++i/--i
 	// ^ 表示 异或 或者 按位取反
-	fmt.Println(5 ^ 6, ^5)  // 3 -6
+	fmt.Println(5 ^ 6, ^5)  //5:101 6:110  3 -6
 }

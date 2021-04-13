@@ -27,9 +27,9 @@ func main() {
 	// var q []int
 	// q[0] = 1  error
 	// var q = make([]int, 4, 4)  right
-	// var q map[int]string
-	// var q = make(map[int]string) right
-	// q[1] = "a" error
+	//var q map[int]string
+	//q[1] = "a" //error
+	//var q = make(map[int]string) //right
 	// var q *int
 	// *q = 1  error
 	// var q = new(int) right	  指针也是引用类型

@@ -68,9 +68,10 @@ func main() {
 	slice1 = append(slice1, 1)  // 添加元素
 	fmt.Printf("%v %#v %T\n", slice1, slice1, slice1)  // [1] []int{1} []int
 
+	fmt.Println("-----------")
 	var Arr1 = [...]int{11, 22, 33, 44, 55}
 	var Slice1 = Arr1[1:3]  // 根据数组定义切片  根据切片定义切片类似
-	fmt.Printf("%v %#v %T\n", Slice1, Slice1, Slice1)  // [1 2 3 4 5] []int{1, 2, 3, 4, 5} []int
+	fmt.Printf("%v %#v %T\n", Slice1, Slice1, Slice1)
 
 	// 切片的长度和容量
 	fmt.Println(Arr1, len(Arr1), cap(Arr1)) // 5, 5  数组

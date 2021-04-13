@@ -43,7 +43,7 @@ func main() {
 		fmt.Println(i)
 		time.Sleep(time.Millisecond * 50)
 	}
-	wg.Wait()
+	wg.Wait()  // 主线程等待所有线程执行完
 	/*
 	0
 	0  test

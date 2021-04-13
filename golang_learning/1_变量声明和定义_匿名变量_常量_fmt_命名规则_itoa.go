@@ -62,7 +62,7 @@ func main() {
 	const ca2 = iota  // 0
 	fmt.Println(ca1, ca2)
 	const (
-		ca = iota	//0	表示const()内的下标为8
+		ca = iota	//0	表示const()内的下标为0
 		cb = 2		//2
 		cc = iota	//2	下标为2
 		cd			//3	跟随cc cd = iota

@@ -17,7 +17,7 @@ func main() {
 		stringChan <- strconv.FormatInt(int64(i), 10) + " string"
 	}
 
-	// 并行执行  在一个方法里面 从多个chan里面并行取数据 时可以用select
+	// 并行执行  在一个方法里面 从多个chan里面并行取数据 时可以用select (*)
 	for {
 		select {  // 使用select时一定不要close chan
 		case v := <- intChan:

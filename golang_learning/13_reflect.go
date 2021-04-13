@@ -113,6 +113,7 @@ func PrintStructFn(s interface{}) {
 	// 获取结构体内的方法
 	method0 := t.Method(0)  // index 和结构体的顺序没有关系  和结构体方法名的ASCII有关系  所以不推荐这种方式
 	fmt.Println(method0.Name, method0.Type)  // Print func(main.Node)
+
 	method1, ok := t.MethodByName("Print")
 	if ok {
 		fmt.Println(method1.Name, method1.Type)  // Print func(main.Node)
@@ -177,6 +178,6 @@ func main() {
 		90.4,
 	}
 	PrintStructFiled(node)
-	PrintStructFn(&node)  // 传入引用类型  传入值类型会127行会报错panic: reflect: call of reflect.Value.Call on zero Value
+	PrintStructFn(&node)  // 传入引用类型  传入值类型会129行会报错panic: reflect: call of reflect.Value.Call on zero Value
 
 }

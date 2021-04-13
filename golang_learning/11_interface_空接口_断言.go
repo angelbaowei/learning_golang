@@ -88,7 +88,7 @@ func main() {
 	p.start()
 	p.stop()
 
-	var p1 Usber = p  // 手机实现usb接口
+	var p1 Usber = p  // 手机实现usb接口   这个写法注意理解
 	p1.start()
 	p1.stop()
 	// p1.run() error p1中没有run方法
@@ -151,7 +151,8 @@ func main() {
 	//cc.Name = "suoni"
 	// var usb2 Usber = cc  error Camera类实现了指针类型接收者 因此cc必须是指针(引用)类型
 
-	var cc = &Camera{}  // 引用类型
+	//var cc = &Camera{}  // 引用类型
+	var cc = new(Camera)  // 或者这个
 	cc.Name = "suoni"
 	var usb2 Usber = cc
 	usb2.start()  // 指针类型接受者
@@ -161,9 +162,9 @@ func main() {
 	// 一个结构体实现多个接口
 	var ccc = &C{}
 	var bbb B = ccc  // C实现B接口
-	var aaa A = ccc  // C实现A接口
+	var aaa A = ccc  // C实现A接口  A接口的SetName方法是引用类型接受者
 	aaa.SetName("C实现A和B两个接口")
-	fmt.Printf(bbb.GetName())
+	fmt.Println("-----", bbb.GetName())  // 因为ccc是引用类型 所以setName aaa 也就setName了bbb
 
 	// 空接口类型不支持索引
 
@@ -192,13 +193,13 @@ func main() {
 	vv, ok := maze[5].([]string)  // 断言
 	if ok{
 		fmt.Println(vv[0])
-		fmt.Println(vv[1])  // 解决的第181行问题
+		fmt.Println(vv[1])  // 解决的第182行问题
 	}
 
 	vv2, ok := maze[4].(node)  // 断言
 	if ok{
 		fmt.Println(vv2.Name)
-		fmt.Println(vv2.Id)  // 解决的第189行问题
+		fmt.Println(vv2.Id)  // 解决的第190行问题
 	}
 
 }
