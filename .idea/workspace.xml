@@ -21,20 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9f7548d-5450-4220-8c7b-cc88a2ecfc8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/10_自定义包_第三方包.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/10_自定义包_第三方包.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/11_interface_空接口_断言.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/11_interface_空接口_断言.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/2_使用sync_WaitGroup_使用的cpu数量.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/2_使用sync_WaitGroup_使用的cpu数量.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/3_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/3_channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/4_select多路复用.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/12_goroutine_channel/4_select多路复用.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/13_reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/13_reflect.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/1_变量声明和定义_匿名变量_常量_fmt_命名规则_itoa.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/1_变量声明和定义_匿名变量_常量_fmt_命名规则_itoa.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/2_int_float_bool_导入第三方包_string的方法_string与其他类型相互转换_byte_rune_for的两种遍历方式.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/2_int_float_bool_导入第三方包_string的方法_string与其他类型相互转换_byte_rune_for的两种遍历方式.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/4_数组_切片_make_sort_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/4_数组_切片_make_sort_map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/6_defer_panic_recover.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/6_defer_panic_recover.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/8_指针_make与new区别.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/8_指针_make与new区别.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/9_结构体_type自定义类型添加方法_结构体与JSON互转.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/9_结构体_type自定义类型添加方法_结构体与JSON互转.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lSroJTlCR9Gjkgf73gVKncH49k" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -76,7 +63,7 @@
       <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 14_文件操作.go">
+  <component name="RunManager" selected="Go Build.go build gin_multiServer.go">
     <configuration name="go build 13_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -91,15 +78,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/golang_learning/14_文件操作.go" />
-      <package value="test_git" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 5_多个协程执行时panic_recover.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/5_多个协程执行时panic_recover.go" />
       <package value="test_git" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -122,13 +100,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build gin_multiServer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gin_learning/gin_multiServer.go" />
+      <package value="test_git" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gin_multiServer.go" />
         <item itemvalue="Go Build.go build 14_文件操作.go" />
         <item itemvalue="Go Build.go build 13_reflect.go" />
         <item itemvalue="Go Build.go build 7_互斥锁.go" />
         <item itemvalue="Go Build.go build 6_not_lock.go" />
-        <item itemvalue="Go Build.go build 5_多个协程执行时panic_recover.go" />
       </list>
     </recent_temporary>
   </component>
