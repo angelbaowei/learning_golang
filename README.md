@@ -5,3 +5,7 @@ golang基础语法学习 学习的视频网站: https://www.bilibili.com/video/B
 # learning_gin
 
 网络编程、gin、单例
+
+# learning_gorm
+
+mysql、redis、gorm CRUD
