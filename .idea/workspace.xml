@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9f7548d-5450-4220-8c7b-cc88a2ecfc8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golang_learning/10_自定义包_第三方包.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/10_自定义包_第三方包.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +55,19 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/golang_learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gRPC_learning" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gRPC_learning/pb" />
+      <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gRPC_learning" />
       <recent name="$PROJECT_DIR$/golang_learning" />
       <recent name="$PROJECT_DIR$/gin_learning" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build gorm.go">
@@ -145,32 +147,36 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="506" y="371" key="#GOROOT/0.23.1440.822@0.23.1440.822" timestamp="1618307259262" />
+    <state x="434" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618492646917">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="434" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.822@0.23.1440.822" timestamp="1618492646917" />
     <state x="406" y="80" key="#go_build_go_redis.go" timestamp="1618466618767">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="406" y="80" key="#go_build_go_redis.go/0.23.1440.822@0.23.1440.822" timestamp="1618466618767" />
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1618486267172">
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1618486355874">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1618486267172" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1618486355874" />
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1618312983871" />
     <state width="1398" height="125" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1618309457123" />
-    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1618486267170">
+    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1618486355872">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1618486267170" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1618486355872" />
     <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1618312983870" />
     <state width="1398" height="125" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1618309457120" />
-    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1618486267168">
+    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1618486355872">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1618486267168" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1618486355872" />
     <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1618312983869" />
     <state width="1398" height="125" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1618309457119" />
-    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1618486267171">
+    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1618486355873">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1618486267171" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1618486355873" />
     <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1618312983870" />
     <state width="1398" height="125" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1618309457122" />
     <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1618336979248">
