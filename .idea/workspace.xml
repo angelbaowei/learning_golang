@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9f7548d-5450-4220-8c7b-cc88a2ecfc8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gRPC_learning/gRPC.go" beforeDir="false" afterPath="$PROJECT_DIR$/gRPC_learning/gRPC.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,15 +60,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/gRPC_learning/pb" />
-      <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gRPC_learning" />
       <recent name="$PROJECT_DIR$/golang_learning" />
       <recent name="$PROJECT_DIR$/gin_learning" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gRPC_learning" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/gRPC_learning/pb" />
+      <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build gorm.go">
