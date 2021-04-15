@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9f7548d-5450-4220-8c7b-cc88a2ecfc8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gin_learning/gin_中间件.go" beforeDir="false" afterPath="$PROJECT_DIR$/gin_learning/gin_中间件.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golang_learning/10_自定义包_第三方包.go" beforeDir="false" afterPath="$PROJECT_DIR$/golang_learning/10_自定义包_第三方包.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,34 +68,7 @@
       <recent name="C:\Users\Admin\go\src\awesomeProject\golang_learning\goroutine_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build gin_中间件.go">
-    <configuration name="go build 13_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/13_reflect.go" />
-      <package value="test_git" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 14_文件操作.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/14_文件操作.go" />
-      <package value="test_git" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 7_互斥锁.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/golang_learning/12_goroutine_channel/7_互斥锁.go" />
-      <package value="test_git" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build gorm.go">
     <configuration name="go build gin_中间件.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -115,13 +87,40 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go_mysql.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gorm_learning/go_mysql.go" />
+      <package value="test_git" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go_redis.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gorm_learning/go_redis.go" />
+      <package value="test_git" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build gorm.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/gorm_learning/gorm.go" />
+      <package value="test_git" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build gorm.go" />
+        <item itemvalue="Go Build.go build go_redis.go" />
+        <item itemvalue="Go Build.go build go_mysql.go" />
         <item itemvalue="Go Build.go build gin_中间件.go" />
         <item itemvalue="Go Build.go build gin_multiServer.go" />
-        <item itemvalue="Go Build.go build 14_文件操作.go" />
-        <item itemvalue="Go Build.go build 13_reflect.go" />
-        <item itemvalue="Go Build.go build 7_互斥锁.go" />
       </list>
     </recent_temporary>
   </component>
@@ -146,28 +145,32 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="506" y="371" key="#GOROOT/0.23.1440.822@0.23.1440.822" timestamp="1618307259262" />
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1618396920182">
+    <state x="406" y="80" key="#go_build_go_redis.go" timestamp="1618466618767">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1618396920182" />
+    <state x="406" y="80" key="#go_build_go_redis.go/0.23.1440.822@0.23.1440.822" timestamp="1618466618767" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom" timestamp="1618486267172">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1618486267172" />
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1618312983871" />
     <state width="1398" height="125" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1618309457123" />
-    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1618396920181">
+    <state width="1398" height="190" key="GridCell.Tab.0.center" timestamp="1618486267170">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1618396920181" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1618486267170" />
     <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1618312983870" />
     <state width="1398" height="125" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1618309457120" />
-    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1618396920180">
+    <state width="1398" height="190" key="GridCell.Tab.0.left" timestamp="1618486267168">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1618396920180" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1618486267168" />
     <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1618312983869" />
     <state width="1398" height="125" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1618309457119" />
-    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1618396920181">
+    <state width="1398" height="190" key="GridCell.Tab.0.right" timestamp="1618486267171">
       <screen x="0" y="23" width="1440" height="822" />
     </state>
-    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1618396920181" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1618486267171" />
     <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1618312983870" />
     <state width="1398" height="125" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1618309457122" />
     <state width="1398" height="264" key="GridCell.Tab.1.bottom" timestamp="1618336979248">
